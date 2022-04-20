@@ -337,7 +337,7 @@ def eval_g_gt_unknown(featmaps, pre_path, pred_labels_seen, pred_labels_unseen, 
     print("hit_top5_seen: ", round(100 * hit_correct_seen[4], 2), " hit_top5_unseen: ",
           round(100 * hit_correct_unseen[4], 2), " hit_top5_h: ", round(100 * hit_h[4], 2))
 
-    print("hit_ave_seen: ", round(100 * hit_correct_seen[5], 2), " hit_ave_unseen: ", round(100 * hit_correct_unseen[1], 2),
+    print("hit_ave_seen: ", round(100 * hit_correct_seen[5], 2), " hit_ave_unseen: ", round(100 * hit_correct_unseen[5], 2),
           " hit_ave_h: ", round(100 * hit_h[5], 2))
 
 
