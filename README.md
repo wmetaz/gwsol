@@ -44,7 +44,7 @@ python experiments/run_trainer.py --cfg ./configs/hybrid/VGG19_AwA2_PS_C.yaml
 </code></pre>
 
 # Test:
-Before you test your model, you should change the "ckpt_name" in the "/your_home_root/gwsol/configs/hybird/VGG19_CUB_PS_C.yaml", such as "VGG19_CUB_PS_C_2021-03-02-13-46"  
+Before you test your model, you should change the "ckpt_name" in the "/Your_Home_Root/gwsol/configs/hybird/VGG19_CUB_PS_C.yaml", such as "VGG19_CUB_PS_C_2021-03-02-13-46"  
 
 ## CUB:   
 C setting:  
@@ -70,7 +70,7 @@ python experiments/run_evaluator_hybrid.py --cfg ./configs/hybrid/VGG19_AwA2_PS_
 
 
 #  AwA2 Boxes Annotation 
-In order to get metrics on the AwA2 dataset, we manually labeled the test dataset of AwA2, you can download the annotation from the dropbox <https://www.dropbox.com/scl/fo/jbzry4jrad1800rkr71nb/h?dl=0&rlkey=wdnz6ptsedfl9umgpjvreolv9>, Please put them into the folder "You_Home_root/gwsol/loc_evaluation/awa2/", like "You_Home_Root/gwsol/loc_evaluation/awa2/test_seen_gt/"
+In order to get metrics on the AwA2 dataset, we manually labeled the test dataset of AwA2, you can download the annotation from the dropbox <https://www.dropbox.com/scl/fo/jbzry4jrad1800rkr71nb/h?dl=0&rlkey=wdnz6ptsedfl9umgpjvreolv9>, Please put them into the folder "You_Home_Root/gwsol/loc_evaluation/awa2/", like "You_Home_Root/gwsol/loc_evaluation/awa2/test_seen_gt/"
 
 # Contact US  
 If you have some questions about this project, please contact me, my email is wyzeng2019@gmail.com
