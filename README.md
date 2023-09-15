@@ -72,7 +72,7 @@ python experiments/run_evaluator_hybrid.py --cfg ./configs/hybrid/VGG19_AwA2_PS_
 #  AwA2 Boxes Annotation 
 In order to get metrics on the AwA2 dataset, we manually labeled the test dataset of AwA2, you can download the annotation from the dropbox <https://www.dropbox.com/scl/fo/jbzry4jrad1800rkr71nb/h?dl=0&rlkey=wdnz6ptsedfl9umgpjvreolv9>, Please put them into the folder "You_Home_Root/gwsol/loc_evaluation/awa2/", like "You_Home_Root/gwsol/loc_evaluation/awa2/test_seen_gt/"
 
-In order to ensure the quality of annotations, labeller selected images that had clean objects and the number of objects was moderate, so there are 5309 seen label files and 6552 unseen labels files for testing ultimately.
+In order to ensure the quality of annotations, labeller selected images that had clean objects and the number of objects was moderate.
 # Contact US  
 If you have some questions about this project, please contact me, my email is wyzeng2019@gmail.com
 
