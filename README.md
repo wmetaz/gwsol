@@ -70,7 +70,7 @@ python experiments/run_evaluator_hybrid.py --cfg ./configs/hybrid/VGG19_AwA2_PS_
 
 
 #  AwA2 Boxes Annotation 
-In order to get metrics on the AwA2 dataset, we manually labeled the test dataset of AwA2, you can download the annotation from the dropbox <https://www.dropbox.com/scl/fo/jbzry4jrad1800rkr71nb/h?dl=0&rlkey=wdnz6ptsedfl9umgpjvreolv9>, Please put them into the folder "You_Home_Root/gwsol/loc_evaluation/awa2/", like "You_Home_Root/gwsol/loc_evaluation/awa2/test_seen_gt/"
+In order to get metrics on the AwA2 dataset, we manually labeled the test dataset of AwA2, you can download the annotation from the dropbox <[https://www.dropbox.com/scl/fo/jbzry4jrad1800rkr71nb/h?dl=0&rlkey=wdnz6ptsedfl9umgpjvreolv9](https://www.dropbox.com/scl/fo/cs8h0b7tx24r5nkletsnq/h?rlkey=6b2iryuufvgatc9kxg0djh1ys&dl=0)>, Please put them into the folder "You_Home_Root/gwsol/loc_evaluation/awa2/", like "You_Home_Root/gwsol/loc_evaluation/awa2/test_seen_gt/"
 
 In order to ensure the quality of annotations, labeller selected images that had clean objects and the number of objects was moderate. So the number of test unseen datasets was 6483, the number of test seen datasets was 5308.
 # Contact US  
