@@ -1,5 +1,5 @@
 # gwsol
-The pytorch code of "Generalized Weakly Supervised Object Localization". The code was based on code <https://github.com/ZJULearning/AttentionZSL> and code <https://github.com/junsukchoe/ADL> . Thanks for their nice job!
+The pytorch code of TNNLS 2022 "Generalized Weakly Supervised Object Localization". The code was based on code <https://github.com/ZJULearning/AttentionZSL> and code <https://github.com/junsukchoe/ADL> . Thanks for their nice job!
 ![微信截图_20220319193914](https://user-images.githubusercontent.com/83970726/159119629-38f7888a-c269-4209-bc32-e2aba5d85dca.png)
 
 # Installation
@@ -72,7 +72,7 @@ python experiments/run_evaluator_hybrid.py --cfg ./configs/hybrid/VGG19_AwA2_PS_
 #  AwA2 Boxes Annotation 
 In order to get metrics on the AwA2 dataset, we manually labeled the test dataset of AwA2, you can download the annotation from the dropbox <https://www.dropbox.com/scl/fo/jbzry4jrad1800rkr71nb/h?dl=0&rlkey=wdnz6ptsedfl9umgpjvreolv9>, Please put them into the folder "You_Home_Root/gwsol/loc_evaluation/awa2/", like "You_Home_Root/gwsol/loc_evaluation/awa2/test_seen_gt/"
 
-In order to ensure the quality of annotations, labeller selected images that had clean objects and the number of objects was moderate.
+In order to ensure the quality of annotations, labeller selected images that had clean objects and the number of objects was moderate. So the number of test unseen datasets was 6483, the number of test seen datasets was 5308.
 # Contact US  
 If you have some questions about this project, please contact me, my email is wyzeng2019@gmail.com
 
